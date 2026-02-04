@@ -1,0 +1,25 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[manifest]
+members = [
+    "demoremoteserver",
+    "expensetracker",
+    "mcp-workspace",
+]
+
+[[package]]
+name = "demoremoteserver"
+version = "0.1.0"
+source = { virtual = "DemoRemoteServer" }
+
+[[package]]
+name = "expensetracker"
+version = "0.1.0"
+source = { virtual = "ExpenseTracker" }
+
+[[package]]
+name = "mcp-workspace"
+version = "0.1.0"
+source = { virtual = "." }

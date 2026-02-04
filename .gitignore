@@ -1,0 +1,15 @@
+# Environment
+.env
+
+# Libs
+venv/
+.venv/
+
+# Python bytecode (recursive)
+**/__pycache__/
+
+# Version files in root AND sub-dirs
+**/.python-version
+
+# OS specific
+.DS_Store

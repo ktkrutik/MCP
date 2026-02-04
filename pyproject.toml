@@ -1,0 +1,13 @@
+[project]
+name = "mcp-workspace"
+version = "0.1.0"
+description = "My MCP Server Collection"
+readme = "README.md"
+requires-python = ">=3.12"
+
+[tool.uv.workspace]
+members = [
+    "DemoServer",
+    "ExpenseTracker",
+    "DemoRemoteServer",
+]
